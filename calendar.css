@@ -1,0 +1,114 @@
+#hio{
+  color:red
+}
+nav .nav-wrapper {
+  background-color: white;
+}
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+  color: black;
+}
+
+nav .brand-logo {
+  color: #171616;
+}
+.collapsible-header {
+  position: absolute;
+  left: 35%;
+  bottom: -4%;
+  border-bottom: 1px solid #ddd0;
+  padding: 0;
+  background-color: #fff0;
+
+}
+#month{
+  color: black;
+  position: fixed;
+  top: 3%;
+  right: 76%;
+}
+ul:not(.browser-default) {
+  padding: 0px;
+  margin: 0px;
+  border: white;
+}
+@media only screen and (min-width: 993px){
+  nav a.sidenav-trigger {
+    display: -webkit-box;
+  }
+}
+.element.style {
+  display: contents !important;
+}
+#date-span{
+  color:black
+}
+.modal-overlay {
+  background: #0000;
+}
+.modal {
+  position: inherit;
+}
+.z-depth-5, .modal {
+  -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.14), 0px 0px 0px 0px rgba(0,0,0,0.12), 0px 0px 0px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.14), 0px 0px 0px 0px rgba(0,0,0,0.12), 0 0px 0px 0px rgba(0,0,0,0.2);
+}
+
+.datepicker-date-display .date-text {
+  display: none;
+}
+.datepicker-date-display .year-text {
+  display: none;
+}
+.datepicker-footer {
+ 
+  display: none;
+}
+.datepicker-date-display {
+  display: none;
+  padding: 0px;
+}
+
+.datepicker-controls {
+  display: none;
+}
+.datepicker-table {
+  width: 100%;
+}
+.datepicker-calendar-container {
+  background-color: white;
+}
+@media only screen and (max-width: 992px){
+  .modal {
+      width: 100%;
+  }
+}
+
+#logo{
+  width: 95%;
+}
+#user{
+  /* padding: 10px; */
+}
+.sidenav .user-view .circle, .sidenav .user-view .name, .sidenav .user-view .email {
+  display: -webkit-inline-box;
+}
+.email{
+  position: absolute;
+  right: -12px;
+  top: 35%;
+  color:#656363;
+}
+.frm1{
+  padding: 12%;
+  color: black;
+  font-weight: 500;
+}
+#email2{
+  position: absolute;
+  left: 33%;
+  top: 24%;
+  color: #656363;
+}
+.span1{
+
+}
