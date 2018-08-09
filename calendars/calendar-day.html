@@ -1,0 +1,224 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="./css/calendar.css" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>calendar</title>
+    <script>
+      function show_up(){
+        $(document).ready(function(){
+          $('.datepicker').datepicker()
+          console.log($('.datepicker').datepicker())
+          $(this).siblings("span").datepicker()
+          $('.datepicker').datepicker()
+        })
+      }
+    </script>
+  </head>
+  <body>
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="../js/materialize.min.js"></script>
+        <ul id="slide-out" class="sidenav ">
+            <li><div class="user-view">
+              <a href="#user"><img id="logo" src="../images/log_calendar.png"></a>
+            </div></li>
+            <li>
+              <a href="#schedule">
+                <i class="material-icons">view_stream</i>Schedule
+              </a>
+            </li>
+            <li>
+              <a href="#!"><i class="material-icons">view_day</i>Day</a>
+            </li>
+            <li>
+              <a href="#!">
+              <i class="material-icons">view_week</i>3 Day</a>
+            </li>
+            <li>
+                <a href="#!"><i class="material-icons">view_week</i>Week</a>
+              </li>
+            <li>
+                <a href="#!"><i class="material-icons">view_module</i>Month</a>
+              </li>
+            <li>
+              <a href="#!">
+                <i class="material-icons">search</i>Search
+              </a>
+            </li>
+            <li><div class="divider"></div></li>
+            <li>
+              <div class="user-view">
+                <a href="#user"><img id="user" class="circle" src="../images/profile.png"></a>
+                <a class="email">krongkan@angstromsolutions.net</a>
+              </div>
+            </li>
+            <li>
+              <form action="#" >
+                <label class="frm1">
+                  <input class="filled-in" type="checkbox" />
+                  <span class="span1">Events</span>
+                </label>
+                <p>
+                  <label class="frm1">
+                    <input class="filled-in" type="checkbox" />
+                    <span>Reminders</span>
+                  </label>
+                </p>
+              </form>
+            </li>
+            <li>
+              <div class="user-view">
+                <a href="#user"><img id="user" class="circle" src="../images/bth.png"></a>
+                <a id="email2">More</a>
+              </div>
+            </li>
+            <li>
+                <form action="#" >
+                  <label class="frm1">
+                    <input class="filled-in" type="checkbox" />
+                    <span>Birthdays</span>
+                  </label>
+                  <p>
+                    <label class="frm1">
+                      <input class="filled-in" type="checkbox" />
+                      <span>Holidays</span>
+                    </label>
+                  </p>
+                </form>
+              </li>
+            <li><a href="#!"><i class="material-icons">settings</i>Setting</a></li>
+            <li><a href="#!"><i class="material-icons">feedback</i>Send feedback</a></li>
+            <li><a href="#!"><i class="material-icons">help</i>Help</a></li>
+            <li><div class="divider"></div></li>
+            <li><a href="#!">Privacy Policy</a></li>
+            <li><a href="#!">Terms of service</a></li>
+            <li><a href="#!">Terms of service</a></li>
+        </ul>
+        <nav edge="top">
+          <div class=" nav-wrapper">
+              <a style=" top: 0%; position: absolute;" href="#!" data-target="slide-out" class="sidenav-trigger">
+                <i class=" material-icons" >menu</i>
+              </a>
+              <div id="input0" >
+                <input type="text" class="datepicker">
+                
+              </div>
+              <i style="font-size: 25px; color: grey; position: absolute;
+              left: 45%;" class=" material-icons" >expand_more</i>
+              <a style="position: absolute;right: 8%;" >
+                <i style="font-size: 20px; color: grey;" class=" material-icons" >today</i>
+              </a>
+          </div>
+        </nav>
+
+        
+      <div >
+        <div style="position: absolute; left: 5%; padding: 1px;">
+          <h4>8 </h4>
+          <h4>Wed</h4>
+        </div>
+        
+        <div class="variablep">
+          
+          <p > 01:00</p>
+          <p > 02:00</p>
+          <p > 03:00</p>
+          <p > 04:00</p>
+          <p > 05:00</p>
+          <p > 06:00</p>
+          <p > 07:00</p>
+          <p > 08:00</p>
+          <p > 09:00</p>
+          <p > 10:00</p>
+          <p > 11:00</p>
+          <p > 12:00</p>
+          <p > 13:00</p>
+          <p > 14:00</p>
+          <p>15:00</p>
+          <p > 16:00</p>
+          <p > 17:00</p>
+          <p > 18:00</p>
+          <p > 19:00</p>
+          <p>20:00</p>
+          <p>21:00</p>
+          <p>22:00</p>
+          <p>23:00</p>
+          <p>24:00</p>
+        </div>
+        
+        <div class="container">
+              <ul class="collection with-header">
+                <li class="collection-header">
+                  <a href="#!" class="secondary-content">
+                    <p id ="headerp" >Noting Planned </p> </a></li>
+                <li class="collection-item"></li>
+                <li class="collection-item"></li>
+                <li class="collection-item"></li>
+                <li class="collection-item"></li>
+                <li class="collection-item"></li>
+                <li class="collection-item"></li>
+                <li class="collection-item"></li>
+                <li class="collection-item"></li>
+                <li class="collection-item"></li>
+                <li class="collection-item"></li>
+                <li class="collection-item"></li>
+                <li class="collection-item"></li>
+                <li class="collection-item"></li>
+                <li class="collection-item"></li>
+                <li class="collection-item"></li>
+                <li class="collection-item"></li>
+                <li class="collection-item"></li>
+                <li class="collection-item"></li>
+                <li class="collection-item"></li>
+                <li class="collection-item"></li>
+                <li class="collection-item"></li>
+              </ul>
+          </div>
+      </div>
+   
+          <!-- Element Showed -->
+      <div style="position: fixed;
+      bottom: 4%;
+      left: 70%;
+      width: 300px;">
+        <a id="menu" style="    width: 60px;
+        height: 60px;" class="red waves-effect waves-light btn btn-floating" >
+        <i style="font-size: 1.9rem;
+        line-height: 60px;" class="Tiny  material-icons">add_circle</i>
+      </a>
+      </div>
+      
+    <script>
+      $(document).ready(function(){
+        console.log("wow")
+        var elems = document.querySelector('.sidenav');
+        var instances = M.Sidenav.init(elems, {});
+
+        $('.collapsible').collapsible();
+        $('.sidenav').sidenav()
+        $('.datepicker').datepicker({
+          autoClose:true,
+          format: 'mmm',
+          defaultDate: Date('2018-8-8')
+        }) 
+        $('.modal').modal();
+        // var inputs = document.querySelectorAll('.datepicker');
+        // var datepickers = M.Datepicker.init(inputs);
+        // console.log(datepickers[0])
+
+        // datepickers[0].open();
+      });
+     
+      
+     
+
+    </script>
+  </body>
+</html>

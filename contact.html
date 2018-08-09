@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="contact.css" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body>
+    <nav  class="nav-extended">
+      <div class="blue nav-wrapper">
+        <a href="#" class="brand-logo">Contacts</a>
+        <form >
+          <div  class="input-field">
+            <input id="search" type="search" required>
+            <label style="position: absolute;
+            left: 89%;" class="label-icon" for="search">
+            <i class="material-icons ">search</i></label>
+          </div>
+          
+        </form>
+      </div>
+      <div class="nav-content">
+        <ul class="tabs tabs-transparent">
+          <li class="tab"><a href="#test1">Favorite</a></li>
+          <li class="tab"><a class="active" href="#test2">Contacts</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div id="test1" class="col s12">
+        <ul class="collection">
+          <li class="collection-item avatar">
+            <i class="material-icons circle">person</i>
+            <span class="title">Anake</span>
+            <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+          </li>
+          <li class="collection-item avatar">
+            <i class="material-icons circle red">person</i>
+            <span class="title">cat</span>
+            <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+          </li>
+        </ul>
+      <div style="position: fixed;
+        bottom: 4%;
+        left: 80%;
+        width: 300px;">
+          <a id="menu" style="    width: 60px;
+          height: 60px;" class="red waves-effect waves-light btn btn-floating" >
+          <i style="font-size: 1.9rem;
+              line-height: 60px;" class="Tiny material-icons">person_add</i>
+        </a>
+      </div>
+    </div>
+    <div id="test2" class="col s12">
+      <ul class="collection">
+        <li class="collection-item avatar">
+          <i class="material-icons circle">person</i>
+          <span class="title">Anake</span>
+        </li>
+        <li class="collection-item avatar">
+          <i class="material-icons circle">person</i>
+          <span class="title">ai</span>
+        </li>
+        <li class="collection-item avatar">
+          <i class="material-icons circle green">person</i>
+          <span class="title">bee</span>
+        </li>
+        <li class="collection-item avatar">
+            <i class="material-icons circle green">person</i>
+            <span class="title">bird</span>
+          </li><li class="collection-item avatar">
+              <i class="material-icons circle green">person</i>
+              <span class="title">buya</span>
+            </li>
+        <li class="collection-item avatar">
+          <i class="material-icons circle red">person</i>
+          <span class="title">cat</span>
+        </li>
+        <li class="collection-item avatar">
+          <i class="material-icons circle blue">person</i>
+          <span class="title">sah</span>
+        </li>
+        <li class="collection-item avatar">
+          <i class="material-icons circle blue">person</i>
+          <span class="title">tat</span>
+        </li>
+        <li class="collection-item avatar">
+          <i class="material-icons circle blue">person</i>
+          <span class="title">zaza</span>
+        </li>
+      </ul>
+      <div style="position: fixed;
+        bottom: 4%;
+        left: 80%;
+        width: 300px;">
+          <a id="menu" style="    width: 60px;
+          height: 60px;" class="red waves-effect waves-light btn btn-floating" >
+          <i style="font-size: 1.9rem;
+              line-height: 60px;" class="Tiny material-icons">person_add</i>
+        </a>
+      </div>
+    </div>
+    
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        var el = document.querySelector('.tabs');
+        var instance = M.Tabs.init(el,{});
+        $('.datepicker').datepicker({
+          format: 'mmmm',
+          container: 'body'
+        })
+        $('.collapsible').collapsible();
+      });
+       
+    
+    </script>
+  </body>
+</html>
+      

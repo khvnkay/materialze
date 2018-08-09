@@ -121,95 +121,7 @@ ul:not(.browser-default) {
 
 }
 
-/*------------------------------------------schedule--------------  */
-.bgimg1 { 
-  /* The image used */
-  background-image: url("images/calendar/january.jpg");
-  min-height: 150px;
 
-}
-.bgimg2 { 
-  /* The image used */
-  background-image: url("./images/calendar/bkg_02_february.jpg");
-  min-height: 150px;
-}
-.bgimg3 { 
-  /* The image used */
-  background-image: url("images/calendar/bkg_03_march.jpg");
-  min-height: 150px;
-}
-.bgimg4 { 
-  /* The image used */
-  background-image: url("images/calendar/bkg_04_april.jpg");
-  min-height: 150px;
-}
-.bgimg5 { 
-  /* The image used */
-  background-image: url("images/calendar/bkg_05_may.jpg");
-  min-height: 150px;
-}
-.bgimg6 { 
-  /* The image used */
-  background-image: url("images/calendar/bkg_06_june.jpg");
-  min-height: 150px;
-}
-.bgimg7 { 
-  /* The image used */
-  background-image: url("images/calendar/bkg_07_july.jpg");
-  min-height: 150px;
-}
-.bgimg8 { 
-  /* The image used */
-  background-image: url("images/calendar/bkg_08_august.jpg");
-  min-height: 150px;
-}
-.bgimg9 { 
-  /* The image used */
-  background-image: url("images/calendar/bkg_09_september.jpg");
-  min-height: 150px;
-}
-.bgimg10 { 
-  /* The image used */
-  background-image: url("images/calendar/bkg_10_october.jpg");
-  min-height: 150px;
-}
-.bgimg11 { 
-  /* The image used */
-  background-image: url("images/calendar/bkg_11_november.jpg");
-  min-height: 150px;
-}
-.bgimg12 { 
-  /* The image used */
-  background-image: url("images/calendar/bkg_12_december.jpg");
-  min-height: 150px;
-}
-
-
-
-.bgimg1, .bgimg2, .bgimg3, .bgimg4, .bgimg5, .bgimg6 , .bgimg7, .bgimg8, .bgimg9, .bgimg10, .bgimg11, .bgimg12 {
-  position: relative;
-  opacity: 0.65;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.caption{
-  position: absolute;
-  right: 31%;
-  top: 10%;
-  width: 100%;
-  font-size: 20px;
-  text-align: center;
-  color: black; 
-}
-.caption span.border {
-  background-color: #111;
-  color: #fff;
-  padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px;
-}
 p {
   display: block;
   -webkit-margin-before: 1em;
@@ -223,4 +135,54 @@ p {
   margin: 0 0 0 12%;
   color: gray;
   text-align: left;
+}
+#t1{
+  color: red
+}
+
+
+.variablep{
+  color: #9E9E9E;
+  position: absolute;
+  top: 18%;
+  left: 6%;
+  
+}
+
+/* ===========================day========================= */
+.collection .collection-item {
+  padding: 20px 20px;
+}
+.collection.with-header .collection-header {
+  background-color: #fff0;
+}
+/* #headerp{
+  position: absolute;
+  top: 1%;
+    left: 17%;
+
+} */
+.secondary-content {
+  float: none;
+  color: #9E9E9E;
+  font-size: 15px;
+}
+h4 {
+  font-size: 1.5rem;
+  line-height: 110%;
+  color: black;
+  margin: 0.52rem 0px -0.088rem 4px;
+}
+
+.container{
+  scroll-snap-type: x mandatory;
+  overflow-x: scroll;
+  display: flex;
+  width: 100%;
+}
+td, th {
+  padding: 10px 40px 10px 50px
+}
+table.centered  tr th, table.centered  tr td {
+  border: outset 0.3px;;
 }

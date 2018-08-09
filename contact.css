@@ -1,0 +1,21 @@
+.collection .collection-item.avatar {
+  min-height: 62px;
+}
+.nav-wrapper .input-field input[type=search] {
+  height: auto;
+}
+nav.nav-extended .nav-content {
+ 
+  background-color: #2196f3;
+}
+nav .brand-logo {
+  font-size: 1.9rem;
+}
+@media only screen and (max-width: 992px){
+  nav .brand-logo {
+      left: 20%;
+  }
+}
+ul:not(.browser-default) {
+  margin: 0px;
+}

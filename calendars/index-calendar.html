@@ -1,0 +1,353 @@
+
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="./css/calendar.css" />
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>calendar</title>
+      <script>
+        function show_up(){
+          $(document).ready(function(){
+            $('.datepicker').datepicker()
+            console.log($('.datepicker').datepicker())
+            $(this).siblings("span").datepicker()
+            $('.datepicker').datepicker()
+          })
+        }
+      </script>
+    </head>
+    <body>
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="../js/materialize.min.js"></script>
+          <ul id="slide-out" class="sidenav ">
+              <li><div class="user-view">
+                <a href="#user"><img id="logo" src="../images/log_calendar.png"></a>
+              </div></li>
+              <li>
+                <a href="#schedule">
+                  <i class="material-icons">view_stream</i>Schedule
+                </a>
+              </li>
+              <li>
+                <a href="#!"><i class="material-icons">view_day</i>Day</a>
+              </li>
+              <li>
+                <a href="#!">
+                <i class="material-icons">view_week</i>3 Day</a>
+              </li>
+              <li>
+                  <a href="#!"><i class="material-icons">view_week</i>Week</a>
+                </li>
+              <li>
+                  <a href="#!"><i class="material-icons">view_module</i>Month</a>
+                </li>
+              <li>
+                <a href="#!">
+                  <i class="material-icons">search</i>Search
+                </a>
+              </li>
+              <li><div class="divider"></div></li>
+              <li>
+                <div class="user-view">
+                  <a href="#user"><img id="user" class="circle" src="../images/profile.png"></a>
+                  <a class="email">krongkan@angstromsolutions.net</a>
+                </div>
+              </li>
+              <li>
+                <form action="#" >
+                  <label class="frm1">
+                    <input class="filled-in" type="checkbox" />
+                    <span class="span1">Events</span>
+                  </label>
+                  <p>
+                    <label class="frm1">
+                      <input class="filled-in" type="checkbox" />
+                      <span>Reminders</span>
+                    </label>
+                  </p>
+                </form>
+              </li>
+              <li>
+                <div class="user-view">
+                  <a href="#user"><img id="user" class="circle" src="../images/bth.png"></a>
+                  <a id="email2">More</a>
+                </div>
+              </li>
+              <li>
+                  <form action="#" >
+                    <label class="frm1">
+                      <input class="filled-in" type="checkbox" />
+                      <span>Birthdays</span>
+                    </label>
+                    <p>
+                      <label class="frm1">
+                        <input class="filled-in" type="checkbox" />
+                        <span>Holidays</span>
+                      </label>
+                    </p>
+                  </form>
+                </li>
+              <li><a href="#!"><i class="material-icons">settings</i>Setting</a></li>
+              <li><a href="#!"><i class="material-icons">feedback</i>Send feedback</a></li>
+              <li><a href="#!"><i class="material-icons">help</i>Help</a></li>
+              <li><div class="divider"></div></li>
+              <li><a href="#!">Privacy Policy</a></li>
+              <li><a href="#!">Terms of service</a></li>
+              <li><a href="#!">Terms of service</a></li>
+          </ul>
+          <nav edge="top">
+            <div class=" nav-wrapper">
+                <a style=" top: 0%; position: absolute;" href="#!" data-target="slide-out" class="sidenav-trigger">
+                  <i class=" material-icons" >menu</i>
+                </a>
+                <div id="input0" >
+                  <input type="text" class="datepicker">
+                  
+                </div>
+                <i style="font-size: 25px; color: grey; position: absolute;
+                left: 45%;" class=" material-icons" >expand_more</i>
+                <a style="position: absolute;right: 8%;" >
+                  <i style="font-size: 20px; color: grey;" class=" material-icons" >today</i>
+                </a>
+            </div>
+          </nav>
+          <div class="divider"></div>
+          <div class="bgimg1">
+            <div class="caption">
+              <span class="boeder">
+                January
+              </span>
+            </div>
+          </div>
+          <div class="section">
+            <div class="text">
+              <p>January 7 - 13</p>
+              <p>January 14 - 20</p>
+              <p>January 21 - 27</p>
+              <p>January 28  -  February 3</p>
+            </div>
+          </div>
+          <div class="divider"></div>
+          <div class="bgimg2">
+              <div class="caption">
+                <span class="boeder">
+                    February
+                </span>
+              </div>
+            </div>
+            <div class="section">
+              <div class="text">
+                <p>February 7 - 13</p>
+                <p>February 14 - 20</p>
+                <p>February 21 - 27</p>
+                <p>February 28  -  March 3</p>
+              </div>
+            </div>
+          <div class="divider"></div>
+          <div class="bgimg3">
+              <div class="caption">
+                <span class="boeder">
+                    March
+                </span>
+              </div>
+            </div>
+            <div class="section">
+              <div class="text">
+                <p>March 7 - 13</p>
+                <p>March 14 - 20</p>
+                <p>March 21 - 27</p>
+                <p>March 28  -  April 3</p>
+              </div>
+            </div>
+          <div class="divider"></div>
+          <div class="bgimg3">
+              <div class="caption">
+                <span class="boeder">
+                    April
+                </span>
+              </div>
+            </div>
+            <div class="section">
+              <div class="text">
+                <p>April 7 - 13</p>
+                <p>April 14 - 20</p>
+                <p>April 21 - 27</p>
+                <p>April 28  -  May 3</p>
+              </div>
+            </div>
+          <div class="divider"></div>
+          <div class="bgimg4">
+              <div class="caption">
+                <span class="boeder">
+                    May
+                </span>
+              </div>
+            </div>
+            <div class="section">
+              <div class="text">
+                <p>May 7 - 13</p>
+                <p>May 14 - 20</p>
+                <p>May 21 - 27</p>
+                <p>May 28  -  June 3</p>
+              </div>
+            </div>
+          <div class="divider"></div>
+          <div class="bgimg5">
+              <div class="caption">
+                <span class="boeder">
+                    May
+                </span>
+              </div>
+            </div>
+            <div class="section">
+              <div class="text">
+                <p>May 7 - 13</p>
+                <p>May 14 - 20</p>
+                <p>May 21 - 27</p>
+                <p>May 28  -  June 3</p>
+              </div>
+            </div>
+          <div class="divider"></div>
+          <div class="bgimg6">
+              <div class="caption">
+                <span class="boeder">
+                    June
+                </span>
+              </div>
+            </div>
+            <div class="section">
+              <div class="text">
+                <p>June 7 - 13</p>
+                <p>June 14 - 20</p>
+                <p>June 21 - 27</p>
+                <p>June 28  -  July 3</p>
+              </div>
+            </div>
+          <div class="divider"></div>
+          <div class="bgimg7">
+              <div class="caption">
+                <span class="boeder">
+                    July
+                </span>
+              </div>
+            </div>
+            <div class="section">
+              <div class="text">
+                <p>July 7 - 13</p>
+                <p>July 14 - 20</p>
+                <p>July 21 - 27</p>
+                <p>July 28  -  August 3</p>
+              </div>
+            </div>
+          <div class="divider"></div>
+          <div class="bgimg8">
+              <div class="caption">
+                <span class="boeder">
+                    August
+                </span>
+              </div>
+            </div>
+            <div class="section">
+              <div class="text">
+                <p>August 7 - 13</p>
+                <p>August 14 - 20</p>
+                <p>August 21 - 27</p>
+                <p>August 28  -  September 3</p>
+              </div>
+            </div>
+          <div class="divider"></div>
+          <div class="bgimg9">
+              <div class="caption">
+                <span class="boeder">
+                    September
+                </span>
+              </div>
+            </div>
+            <div class="section">
+              <div class="text">
+                <p>September 7 - 13</p>
+                <p>September 14 - 20</p>
+                <p>September 21 - 27</p>
+                <p>September 28  -  October 3</p>
+              </div>
+            </div>
+          <div class="divider"></div>
+          <div class="bgimg10">
+              <div class="caption">
+                <span class="boeder">
+                    October
+                </span>
+              </div>
+            </div>
+            <div class="section">
+              <div class="text">
+                <p>October 7 - 13</p>
+                <p>October 14 - 20</p>
+                <p>October 21 - 27</p>
+                <p>October 28  -  November 3</p>
+              </div>
+            </div>
+          <div class="divider"></div>
+          <div class="bgimg11">
+              <div class="caption">
+                <span class="boeder">
+                    November
+                </span>
+              </div>
+            </div>
+            <div class="section">
+              <div class="text">
+                <p>November 7 - 13</p>
+                <p>November 14 - 20</p>
+                <p>November 21 - 27</p>
+                <p>November 28  -  December 3</p>
+              </div>
+            </div>
+            <div class="bgimg12">
+                <div class="caption">
+                  <span class="boeder">
+                      November
+                  </span>
+                </div>
+              </div>
+              <div class="section">
+                <div class="text">
+                  <p>December 7 - 13</p>
+                  <p>December 14 - 20</p>
+                  <p>December 21 - 27</p>
+                  <p>December 28  - 31</p>
+                </div>
+              </div>
+      <script>
+        $(document).ready(function(){
+          console.log("wow")
+          var elems = document.querySelector('.sidenav');
+          var instances = M.Sidenav.init(elems, {});
+ 
+          $('.collapsible').collapsible();
+          $('.sidenav').sidenav()
+          $('.datepicker').datepicker({
+            autoClose:true,
+            format: 'mmm',
+            defaultDate: Date('2018-8-8')
+          }) 
+          $('.modal').modal();
+          // var inputs = document.querySelectorAll('.datepicker');
+          // var datepickers = M.Datepicker.init(inputs);
+          // console.log(datepickers[0])
+
+          // datepickers[0].open();
+        });
+       
+        
+       
+  
+      </script>
+    </body>
+  </html>

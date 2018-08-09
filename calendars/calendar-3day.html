@@ -1,0 +1,675 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="./css/calendar3day.css" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>calendar</title>
+    <script>
+      function show_up(){
+        $(document).ready(function(){
+          $('.datepicker').datepicker()
+          console.log($('.datepicker').datepicker())
+          $(this).siblings("span").datepicker()
+          $('.datepicker').datepicker()
+        })
+      }
+    </script>
+  </head>
+  <body>
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="../js/materialize.min.js"></script>
+        <ul id="slide-out" class="sidenav ">
+            <li><div class="user-view">
+              <a href="#user"><img id="logo" src="../images/log_calendar.png"></a>
+            </div></li>
+            <li>
+              <a href="#schedule">
+                <i class="material-icons">view_stream</i>Schedule
+              </a>
+            </li>
+            <li>
+              <a href="#!"><i class="material-icons">view_day</i>Day</a>
+            </li>
+            <li>
+              <a href="#!">
+              <i class="material-icons">view_week</i>3 Day</a>
+            </li>
+            <li>
+                <a href="#!"><i class="material-icons">view_week</i>Week</a>
+              </li>
+            <li>
+                <a href="#!"><i class="material-icons">view_module</i>Month</a>
+              </li>
+            <li>
+              <a href="#!">
+                <i class="material-icons">search</i>Search
+              </a>
+            </li>
+            <li><div class="divider"></div></li>
+            <li>
+              <div class="user-view">
+                <a href="#user"><img id="user" class="circle" src="../images/profile.png"></a>
+                <a class="email">krongkan@angstromsolutions.net</a>
+              </div>
+            </li>
+            <li>
+              <form action="#" >
+                <label class="frm1">
+                  <input class="filled-in" type="checkbox" />
+                  <span class="span1">Events</span>
+                </label>
+                <p>
+                  <label class="frm1">
+                    <input class="filled-in" type="checkbox" />
+                    <span>Reminders</span>
+                  </label>
+                </p>
+              </form>
+            </li>
+            <li>
+              <div class="user-view">
+                <a href="#user"><img id="user" class="circle" src="../images/bth.png"></a>
+                <a id="email2">More</a>
+              </div>
+            </li>
+            <li>
+                <form action="#" >
+                  <label class="frm1">
+                    <input class="filled-in" type="checkbox" />
+                    <span>Birthdays</span>
+                  </label>
+                  <p>
+                    <label class="frm1">
+                      <input class="filled-in" type="checkbox" />
+                      <span>Holidays</span>
+                    </label>
+                  </p>
+                </form>
+              </li>
+            <li><a href="#!"><i class="material-icons">settings</i>Setting</a></li>
+            <li><a href="#!"><i class="material-icons">feedback</i>Send feedback</a></li>
+            <li><a href="#!"><i class="material-icons">help</i>Help</a></li>
+            <li><div class="divider"></div></li>
+            <li><a href="#!">Privacy Policy</a></li>
+            <li><a href="#!">Terms of service</a></li>
+            <li><a href="#!">Terms of service</a></li>
+        </ul>
+        <nav edge="top">
+          <div class=" nav-wrapper">
+              <a style=" top: 0%; position: absolute;" href="#!" data-target="slide-out" class="sidenav-trigger">
+                <i class=" material-icons" >menu</i>
+              </a>
+              <div id="input0" >
+                <input type="text" class="datepicker">
+                
+              </div>
+              <i style="font-size: 25px; color: grey; position: absolute;
+              left: 45%;" class=" material-icons" >expand_more</i>
+              <a style="position: absolute;right: 8%;" >
+                <i style="font-size: 20px; color: grey;" class=" material-icons" >today</i>
+              </a>
+          </div>
+        </nav>
+        <div class="container">
+            <table class="bordered  centered highlight fixed_header">
+              <thead>
+                <tr style="width: 200px">
+                  <td>
+                    1 SUN
+                  </td>
+                  <td>
+                    2 MON
+                  </td>
+                  <td>
+                    3 TUE
+                  </td>
+                  <td>
+                    4 WED
+                  </td>
+                  <td>
+                    5 THU
+                  </td>
+                  <td>
+                    6 FRI
+                  </td>
+                  <td>
+                    7 SAT
+                  </td>
+                  <td>
+                    8 SUN
+                  </td>
+                  <td>
+                    9 MON
+                  </td>
+                  <td>
+                    10 TUE
+                  </td>
+                  <td>
+                    11 MON
+                  </td>
+                  <td>
+                    12 WED
+                  </td>
+                  <td>
+                    13 WED
+                    </td>
+                    <td>
+                  14 THU
+                    </td>
+                    <td>
+                    15 FRI
+                    </td>
+                    <td>
+                    16 SAT
+                    </td>
+                    <td>
+                      17 SUN
+                    </td>
+                    <td>
+                      18 MON
+                    </td>
+                    <td>
+                        19 TUE
+                    </td>
+                    <td>
+                        20 MON
+                    </td>
+                    <td>
+                      21 WED
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+              <tr style="width: 200px">
+                  <td>
+                  </td>
+                  <td>
+                  </td>
+                  <td>
+                  </td>
+                  <td>
+                  </td>
+                  <td>
+                  </td>
+                  <td>
+                  </td>
+                  <td>
+                  </td>
+                  <td>
+                    1 MEETING
+                  </td>
+                  <td>
+                  </td>
+                  <td>
+                  </td>
+                  <td>
+                  </td>
+                  <td>
+                  </td>
+                  <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr style="width: 200px">
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                         2 MEETING
+                      </td>
+                      <td>
+                      </td>
+                </tr>
+                <tr style="width: 200px">
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                         3 MEETING
+                      </td>
+                      <td>
+                      </td>
+                </tr>
+                <tr style="width: 200px">
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                         2  MEETING
+                      </td>
+                      <td>
+                      </td>
+                </tr>
+                <tr style="width: 200px">
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                          7 MEETING
+                      </td>
+                      <td>
+                      </td>
+                </tr>
+                <tr style="width: 200px">
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                          1 MEETING
+                      </td>
+                      <td>
+                      </td>
+                </tr>
+                <tr style="width: 200px">
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                          20 MEETING
+                      </td>
+                      <td>
+                      </td>
+                </tr>
+                <tr style="width: 200px">
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+
+                      <td>
+                        3 MEETING
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                </tr>
+                <tr style="width: 200px">
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+
+                      <td>
+                        3 MEETING
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                </tr>
+                <tr style="width: 200px">
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+
+                      <td>
+                        3 MEETING
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                </tr>
+              </tbody>
+            </table>
+           
+        </div>
+        
+    <script>
+      $(document).ready(function(){
+        console.log("wow")
+        var elems = document.querySelector('.sidenav');
+        var instances = M.Sidenav.init(elems, {});
+
+        $('.collapsible').collapsible();
+        $('.sidenav').sidenav()
+        $('.datepicker').datepicker({
+          autoClose:true,
+          format: 'mmm',
+          defaultDate:new Date('2018-8-8'),
+          disableWeekends: true
+        }) 
+        $('.modal').modal();
+        // var inputs = document.querySelectorAll('.datepicker');
+        // var datepickers = M.Datepicker.init(inputs);
+        // console.log(datepickers[0])
+
+        // datepickers[0].open();
+      });
+     
+      
+     
+
+    </script>
+  </body>
+</html>

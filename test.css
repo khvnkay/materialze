@@ -1,0 +1,23 @@
+.modal{
+  top: 0;
+  /* position: inherit; */
+}
+.modal-overlay {
+
+  background: #0000;
+}
+.datepicker-modal {
+  min-width: 100%;
+}
+.datepicker-controls {
+  display: none;
+}
+.datepicker-date-display {
+ 
+  display: none;
+}
+@media only screen and (min-width: 601px){
+  .datepicker-controls, .datepicker-table, .datepicker-footer {
+    width: 100%;
+  }
+}

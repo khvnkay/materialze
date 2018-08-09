@@ -124,63 +124,63 @@ ul:not(.browser-default) {
 /*------------------------------------------schedule--------------  */
 .bgimg1 { 
   /* The image used */
-  background-image: url("images/calendar/january.jpg");
+  background-image: url("../../images/calendar/january.jpg");
   min-height: 150px;
 
 }
 .bgimg2 { 
   /* The image used */
-  background-image: url("./images/calendar/bkg_02_february.jpg");
+  background-image: url("../../images/calendar/bkg_02_february.jpg");
   min-height: 150px;
 }
 .bgimg3 { 
   /* The image used */
-  background-image: url("images/calendar/bkg_03_march.jpg");
+  background-image: url("../../images/calendar/bkg_03_march.jpg");
   min-height: 150px;
 }
 .bgimg4 { 
   /* The image used */
-  background-image: url("images/calendar/bkg_04_april.jpg");
+  background-image: url("../../images/calendar/bkg_04_april.jpg");
   min-height: 150px;
 }
 .bgimg5 { 
   /* The image used */
-  background-image: url("images/calendar/bkg_05_may.jpg");
+  background-image: url("../../images/calendar/bkg_05_may.jpg");
   min-height: 150px;
 }
 .bgimg6 { 
   /* The image used */
-  background-image: url("images/calendar/bkg_06_june.jpg");
+  background-image: url("../../images/calendar/bkg_06_june.jpg");
   min-height: 150px;
 }
 .bgimg7 { 
   /* The image used */
-  background-image: url("images/calendar/bkg_07_july.jpg");
+  background-image: url("../../images/calendar/bkg_07_july.jpg");
   min-height: 150px;
 }
 .bgimg8 { 
   /* The image used */
-  background-image: url("images/calendar/bkg_08_august.jpg");
+  background-image: url("../../images/calendar/bkg_08_august.jpg");
   min-height: 150px;
 }
 .bgimg9 { 
   /* The image used */
-  background-image: url("images/calendar/bkg_09_september.jpg");
+  background-image: url("../../images/calendar/bkg_09_september.jpg");
   min-height: 150px;
 }
 .bgimg10 { 
   /* The image used */
-  background-image: url("images/calendar/bkg_10_october.jpg");
+  background-image: url("../../images/calendar/bkg_10_october.jpg");
   min-height: 150px;
 }
 .bgimg11 { 
   /* The image used */
-  background-image: url("images/calendar/bkg_11_november.jpg");
+  background-image: url("../../images/calendar/bkg_11_november.jpg");
   min-height: 150px;
 }
 .bgimg12 { 
   /* The image used */
-  background-image: url("images/calendar/bkg_12_december.jpg");
+  background-image: url("../../images/calendar/bkg_12_december.jpg");
   min-height: 150px;
 }
 
@@ -223,4 +223,48 @@ p {
   margin: 0 0 0 12%;
   color: gray;
   text-align: left;
+}
+#t1{
+  color: red
+}
+
+
+.variablep{
+  color: #9E9E9E;
+  position: absolute;
+  top: 18%;
+  left: 6%;
+  
+}
+
+/* ===========================day========================= */
+.collection .collection-item {
+  padding: 20px 20px;
+}
+.collection.with-header .collection-header {
+  background-color: #fff0;
+}
+/* #headerp{
+  position: absolute;
+  top: 1%;
+    left: 17%;
+
+} */
+.secondary-content {
+  float: none;
+  color: #9E9E9E;
+  font-size: 15px;
+}
+h4 {
+  font-size: 1.5rem;
+  line-height: 110%;
+  color: black;
+  margin: 0.52rem 0px -0.088rem 4px;
+}
+.container {
+  width: 70%;
+  position: absolute;
+  left: 20%;
+  margin: 0px ;
+  top: 11%;
 }
